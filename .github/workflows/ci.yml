@@ -35,3 +35,4 @@ jobs:
           REDIS_URL: redis://localhost:6379/0
         run: |
           pytest -v
+        working-directory: apps/api
