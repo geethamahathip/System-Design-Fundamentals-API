@@ -1,5 +1,7 @@
 sqlalchemy
 python-dotenv
+redis
+pydantic
 fastapi
 uvicorn
 pytest
