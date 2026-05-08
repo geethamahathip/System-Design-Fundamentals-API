@@ -1,0 +1,62 @@
+# -----------------------
+# Python
+# -----------------------
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# -----------------------
+# Environment variables
+# -----------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------
+# Databases
+# -----------------------
+*.db
+*.sqlite3
+
+# -----------------------
+# Jupyter / notebooks
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# Docker / local builds
+# -----------------------
+.dockerignore   # (ONLY if accidentally created as folder before; safe ignore)
+docker-compose.override.yml
+
+# -----------------------
+# IDE / editors
+# -----------------------
+.vscode/
+.idea/
+
+# -----------------------
+# OS files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+
+# -----------------------
+# Node (only if frontend ever added later)
+# -----------------------
+node_modules/
+dist/
+build/

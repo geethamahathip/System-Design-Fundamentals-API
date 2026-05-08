@@ -1,0 +1,15 @@
+{
+  "event_type": "module_evaluation",
+  "data": {
+    "overall": 1,
+    "narrative": "Recovery placeholder. Replace with the module-specific UPSK evaluation payload before submitting.",
+    "student_knowledge": {
+      "terminology_gaps": [],
+      "concepts_demonstrated": [],
+      "teaching_approaches": [],
+      "effective_level": "beginner",
+      "learning_style_signals": [],
+      "confidence_level": "low"
+    }
+  }
+}
