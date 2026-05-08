@@ -24,6 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+        working-directory: .
 
       - name: Run tests
         env:
