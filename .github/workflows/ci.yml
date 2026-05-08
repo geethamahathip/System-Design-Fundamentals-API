@@ -28,6 +28,7 @@ jobs:
 
       - name: Run tests
         env:
+          PYTHONPATH: .
           PORT: 8000
           DATABASE_URL: sqlite:///./test.db
           API_KEY_A: key1
